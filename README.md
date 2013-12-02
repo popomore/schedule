@@ -2,6 +2,9 @@
 
 A tiny cron-like tools for humman, implement by Node.js
 
+[![Build Status](https://travis-ci.org/popomore/timers.png?branch=master)](https://travis-ci.org/popomore/timers)
+[![Coverage Status](https://coveralls.io/repos/popomore/timers/badge.png)](https://coveralls.io/r/popomore/timers)
+
 ---
 
 ## Install
