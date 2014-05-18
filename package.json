@@ -1,6 +1,6 @@
 {
   "name": "timers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tiny cron-like tools for humman.",
   "main": "index.js",
   "devDependencies": {
