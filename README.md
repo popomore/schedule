@@ -1,31 +1,31 @@
-# Timers
+# Schedule
 
 A tiny cron-like tools for humman, implement by Node.js
 
-[![Build Status](https://travis-ci.org/popomore/timers.png?branch=master)](https://travis-ci.org/popomore/timers)
-[![Coverage Status](https://coveralls.io/repos/popomore/timers/badge.png)](https://coveralls.io/r/popomore/timers)
+[![Build Status](https://travis-ci.org/popomore/schedule.png?branch=master)](https://travis-ci.org/popomore/schedule)
+[![Coverage Status](https://coveralls.io/repos/popomore/schedule/badge.png)](https://coveralls.io/r/popomore/schedule)
 
 ---
 
 ## Install
 
 ```
-$ npm install timers
+$ npm install schedule
 ```
 
 ## Usage
 
 ```
-var every = require('timers').every;
+var every = require('schedule').every;
 every('2s').do(function() {
-  // do your job 
+  // do your job
 });
 ```
 
 You can stop interval when some exception
 
 ```
-var every = require('timers').every;
+var every = require('schedule').every;
 var ins = every('2 seconds').do(cb);
 
 process.on('uncaughtException', function() {
