@@ -10,7 +10,7 @@ exports.every = function(str) {
 var time = {
   millisecond: 1,
   second: 1000,
-  minite: 60000,
+  minute: 60000,
   hour: 3600000,
   day: 86400000
 };
@@ -65,7 +65,7 @@ Every.prototype.stop = function() {
 
     ms, millisecond(s)?
     s, second(s)?
-    m, minite(s)?
+    m, minute(s)?
     h, hour(s)?
     d, day(s)?
 */
