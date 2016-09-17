@@ -31,11 +31,11 @@ describe('Timers', function() {
     }, 55);
     setTimeout(function() {
       spy.callCount.should.be.eql(2);
-    }, 105);
+    }, 110);
     setTimeout(function() {
       spy.callCount.should.be.eql(3);
       done();
-    }, 155);
+    }, 165);
   });
 
 

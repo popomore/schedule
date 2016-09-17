@@ -1,6 +1,6 @@
 # Schedule
 
-A tiny cron-like tools for humman, implement by Node.js
+A tiny cron-like tool for Node.js
 
 [![Build Status](https://travis-ci.org/popomore/schedule.png?branch=master)](https://travis-ci.org/popomore/schedule)
 [![Coverage Status](https://coveralls.io/repos/popomore/schedule/badge.png)](https://coveralls.io/r/popomore/schedule)
@@ -17,7 +17,7 @@ $ npm install schedule
 
 ```
 var every = require('schedule').every;
-every('2s').do(function() {
+every('2 s').do(function() {
   // do your job
 });
 ```
@@ -37,10 +37,10 @@ process.on('uncaughtException', function() {
 
 - ms, millisecond, milliseconds
 - s, second, seconds
-- m, minite, minites
+- m, minute, minutes
 - h, hour, hours
 - d, day, days
 
-## Lisence
+## License
 
 MIT
